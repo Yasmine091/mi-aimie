@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(255, 253, 111);
+}
+
+a {
+  font-size: 14px !important;
+  color: #000;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: rgb(23, 139, 0);
+}
+
+.lien-1 {
+  font-size: 14px !important;
+  color: rgb(179, 179, 179);
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.lien-1:hover {
+  color: rgb(179, 179, 179);
+}
+
+div {
+  margin: auto;
+  width: auto;
+  max-width: 970px;
+h4 {
+  color: $teal;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+}
+
+#Information {
+  border: 2px solid rgb(179, 179, 179);
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  .info {
+    color: $teal;
+    font-weight: bolder;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.links{
+  text-align: center;
+}
+}
+
+.flex {
+  border: 2px solid rgb(179, 179, 179);
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  max-width: 660px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  div {
+  border: 2px solid rgb(179, 179, 179);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 290px;
+  margin: 15px;
+  }
+}
