@@ -20,6 +20,12 @@ a:hover {
   font-weight: bolder;
 }
 
+.lien-2 {
+  font-size: 14px !important;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
 .lien-1:hover {
   color: rgb(179, 179, 179);
 }
@@ -41,7 +47,7 @@ h4 {
   background-color: #fff;
   padding: 5px;
   border-radius: 10px;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
   .info {
     color: $teal;
     font-weight: bolder;
@@ -60,21 +66,47 @@ h4 {
   background-color: #fff;
   padding: 5px;
   border-radius: 10px;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
-  max-width: 660px;
+  max-width: 630px;
   justify-content: center;
   align-items: center;
   text-align: center;
   div {
   border: 2px solid rgb(179, 179, 179);
   background-color: #fff;
-  padding: 20px;
+  padding: 22px;
   border-radius: 10px;
   text-align: center;
   width: 290px;
-  margin: 15px;
+  margin: 8px;
+  }
+  p {
+    text-align: left !important;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+}
+
+footer {
+  margin-top: 50px;
+  div {
+    margin: auto;
+    width: auto;
+    max-width: 630px;
+    p {
+      text-align: left !important;
+      font-size: 12px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      line-height: 1.2;
+    }
+    .centered {
+      text-align: center !important;
+    }
   }
 }
